@@ -555,3 +555,245 @@ margin:auto;
 margin-top: 40px;
 }
     
+
+}
+
+/* Ajustes de lectura y distribución para teléfonos */
+@media (max-width: 700px) {
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .menu {
+        justify-content: flex-start;
+        padding: 12px 18px;
+        background: rgba(25, 25, 25, 0.96);
+    }
+
+    .menu label {
+        display: block;
+    }
+
+    .menu .navbar {
+        top: 100%;
+        background: #191919;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+        padding: 0;
+    }
+
+    .navbar ul li a {
+        display: block;
+        margin: 0;
+        padding: 14px 20px;
+        color: #ffffff;
+    }
+
+    .header {
+        margin-top: 0;
+        min-height: auto;
+        padding-top: 70px;
+        background-size: min(78vw, 330px);
+        background-position: center 70px;
+    }
+
+    .header:hover {
+        background-size: min(78vw, 330px);
+    }
+
+    .header-content {
+        width: 100%;
+        padding: 150px 20px 28px;
+    }
+
+    .header-txt {
+        margin-bottom: 8px;
+    }
+
+    .header-txt h1 {
+        margin-bottom: 6px;
+        font-size: clamp(3.2rem, 14vw, 5.2rem);
+        line-height: 0.98;
+        letter-spacing: 2px;
+        overflow-wrap: anywhere;
+    }
+
+    .header-txt span {
+        font-size: 1.2rem;
+    }
+
+    .header-txt p {
+        max-width: 38rem;
+        margin: 16px auto;
+        padding: 0;
+        font-size: 1rem;
+        line-height: 1.65;
+    }
+
+    .header-info {
+        flex-direction: column;
+        gap: 8px;
+        padding: 20px 0 0;
+    }
+
+    .header-dir {
+        padding: 12px 8px;
+    }
+
+    .header-dir h3 {
+        margin-bottom: 4px;
+        font-size: 0.9rem;
+    }
+
+    .header-dir p {
+        margin: 0;
+        font-size: 0.95rem;
+        line-height: 1.45;
+        overflow-wrap: anywhere;
+    }
+
+    .btn-1,
+    .btn-glam {
+        max-width: 100%;
+        padding: 12px 20px;
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+    }
+
+    .Welcome {
+        display: block;
+    }
+
+    .Welcome-1 {
+        display: block;
+        width: 100%;
+        min-height: 230px;
+        background-position: center;
+    }
+
+    .Welcome-2 {
+        width: 100%;
+        padding: 34px 22px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: clamp(2.6rem, 10vw, 4rem);
+        line-height: 1.05;
+        overflow-wrap: anywhere;
+    }
+
+    p {
+        font-size: 1rem;
+        line-height: 1.65;
+    }
+
+    .services {
+        width: 100%;
+        padding: 48px 20px;
+    }
+
+    .services-txt p {
+        padding: 0;
+    }
+
+    .services-group {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 18px;
+        margin: 24px 0;
+    }
+
+    .services-1,
+    .services-2,
+    .services-3 {
+        width: 100%;
+        padding: 18px;
+        margin: 0;
+    }
+
+    .services-1 img,
+    .services-2 img,
+    .services-3 img {
+        display: block;
+        width: 100%;
+        max-height: 320px;
+        object-fit: cover;
+    }
+
+    .prices {
+        display: block;
+        width: 100%;
+    }
+
+    .prices-1 {
+        width: 100%;
+        padding: 42px 22px;
+        text-align: left;
+    }
+
+    .prices-1 h2 {
+        text-align: center;
+    }
+
+    .prices table {
+        width: 100%;
+        margin: 24px 0 14px;
+        table-layout: fixed;
+    }
+
+    .prices th,
+    .prices td {
+        padding: 10px 8px;
+        font-size: 0.98rem;
+    }
+
+    .prices th {
+        width: 65%;
+    }
+
+    .prices td {
+        text-align: right;
+    }
+
+    .Personal {
+        width: 100%;
+        padding: 48px 22px;
+    }
+
+    .personal-txt {
+        margin-bottom: 18px;
+    }
+
+    .personal-1 p {
+        padding: 0;
+    }
+
+    .mapa {
+        width: calc(100% - 32px);
+        max-width: 700px;
+        margin: 22px auto 36px;
+    }
+
+    .mapa iframe {
+        display: block;
+        width: 100%;
+        height: 260px;
+    }
+
+    .redes-sociales img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
